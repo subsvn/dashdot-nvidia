@@ -1,4 +1,4 @@
-FROM nvidia/cuda:12.1.0-base-ubuntu22.04
+FROM nvidia/cuda:12.3.1-base-ubuntu22.04
 
 RUN apt update && apt install -y git curl pciutils dmidecode && \
     curl -fsSL https://deb.nodesource.com/setup_19.x |  bash - && apt-get install -y nodejs && \
